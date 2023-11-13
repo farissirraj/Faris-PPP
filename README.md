@@ -1,5 +1,7 @@
 # Faris - Project Portfolio Page
 
+Fit Track is a comprehensive fitness tracker software designed to monitor and analyze various aspects of personal wellness like workouts, meals consumed, steps walked, calories burned etc. This will provide users with insights to support their fitness/health goals. It offers an intuitive interface and customizable features, enabling individuals to seamlessly track their progress and make informed decisions about their well-being.
+
 
 ### Summary of Contributions
 
@@ -37,6 +39,7 @@
 
 * **Provide suggestions on how many more steps need to be walked to reach the daily calorie goal.** 
     - What it does: Calculate the calories consumed based on the number of steps walked.
+    - This was done after doing some research into how steps walked by an individual can be quantified calorifically
     - Justification: Allows the user to keep track of their calorie expenses through walking alone.
 
 
@@ -52,7 +55,7 @@
 
   
 #### Code Contributions to the tp
-* **Code Contributed:** [RepoSense Link](https://nus-cs2113-ay2324s1.github.io/tp-dashboard/?search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByRepos&breakdown=true&checkedFileTypes=docs~functional-code~test-code&since=2023-09-22&tabOpen=true&tabType=authorship&tabAuthor=farissirraj&tabRepo=AY2324S1-CS2113-W12-4%2Ftp%5Bmaster%5D&authorshipIsMergeGroup=false&authorshipFileTypes=docs~functional-code~test-code&authorshipIsBinaryFileTypeChecked=false&authorshipIsIgnoredFilesChecked=false)
+* **Code Contributed:** [RepoSense Link](https://nus-cs2113-ay2324s1.github.io/tp-dashboard/?search=farissirraj&breakdown=false&sort=groupTitle%20dsc&sortWithin=title&since=2023-09-22&timeframe=commit&mergegroup=&groupSelect=groupByRepos)
 
 
 * **Project Management:**
@@ -61,8 +64,14 @@
     - Assigned pull request to certain issues of the project.
     - Contributed to unit testing of my written code.
     - Communicated with team members using Telegram and MS Teams video call to discuss the features integrated and the progress of the project.
+    - Participated in regular code reviews were done using in person after the tutorial slot and online to ensure all new features implemented were in accordance with the required coding standards.
     - Similar channels were used to do code reviews or pair programming for bug fixes when extensive integration with the codebase was required.
 
+* **Challenges Faced:**
+    - Implementing the steps functionality was particularly challenging as it was an idea that was not initially thought of in the beginning of the project. So, when the parser, storage classes and other files were already setup, then I decided         to implement the steps suite of features. A lot of work was in modifying the pre-existing classes like `Command`, `Storage` and `Command Parser` to ensure that all the new commands pertaining to the `Step` class was integrated seamlessly.
+    - Moreover, with other new functionalities coming in from the `Meal` ans `workoutList` from the other developers, the merge conflicts became increasingly difficult to resolve. Here is where we confrenced over video call with screen sharing to       ensure that the conflicts were resolved in the best possible way.
+    - Some features like `getstepssuggestion` and `checkrecommendedweight` required some additional research into the ways the calories and weights could be computed. This had to be carefully studied and tests had to be written to ensure         
+      consistency and reliability over future iterations.  
 
 * **Documentation:**
     - User Guide:
