@@ -1,6 +1,6 @@
 # Faris - Project Portfolio Page
 
-Fit Track is a comprehensive fitness tracker software designed to monitor and analyze various aspects of personal wellness like workouts, meals consumed, steps walked, calories burned etc. This will provide users with insights to support their fitness/health goals. It offers an intuitive interface and customizable features, enabling individuals to seamlessly track their progress and make informed decisions about their well-being.
+Fit Track is a comprehensive fitness tracker software designed to monitor and analyze various aspects of personal wellness like workouts, meals consumed, steps walked, calories burned etc. This will provide users with insights to support their fitness/health goals. It offers an intuitive interface, enabling individuals to seamlessly track their progress and make informed decisions about their well-being.
 
 
 ### Summary of Contributions
